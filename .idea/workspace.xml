@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/doubleCheck/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/doubleCheck/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/doubleCheck/DoubleCheckSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/doubleCheck/DoubleCheckSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/eager/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/eager/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/eager/EagerSingleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/eager/EagerSingleton1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/eager/EagerSingleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/eager/EagerSingleton2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/lazy/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/lazy/LazySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/lazy/MultiThreadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/lazy/MultiThreadClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/lazy/SingleThreadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/lazy/SingleThreadClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/threadSafe/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/threadSafe/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/threadSafe/ThreadSafeSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/threadSafe/ThreadSafeSingleton.java" afterDir="false" />
-    </list>
+    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="Singleton pattern created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +105,29 @@
       <option name="presentableId" value="Default" />
       <updated>1657704897158</updated>
     </task>
+    <task id="LOCAL-00001" summary="Singleton pattern created">
+      <created>1657705925081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657705925081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Singleton pattern created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern created" />
   </component>
 </project>
