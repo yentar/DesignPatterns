@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="idea config">
+    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="adapater pattern added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/builder/BuilderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/builder/BuilderClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <recent name="com.yentar.creationalPatterns.factoryMethodeExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.yentar.structuralPatterns.classAdapter.Client">
+  <component name="RunManager" selected="Application.com.yentar.creationalPatterns.singleton.enumSingleton.Client">
     <configuration name="AutoFabrikClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.factoryMethod.AutoFabrikClient" />
       <module name="DesignPatterns" />
@@ -103,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yentar.creationalPatterns.singleton.threadSafe.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.singleton.threadSafe.Client" />
+    <configuration name="com.yentar.creationalPatterns.singleton.enumSingleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.singleton.enumSingleton.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yentar.creationalPatterns.singleton.threadSafe.*" />
+          <option name="PATTERN" value="com.yentar.creationalPatterns.singleton.enumSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.yentar.creationalPatterns.singleton.enumSingleton.Client" />
         <item itemvalue="Application.com.yentar.structuralPatterns.classAdapter.Client" />
         <item itemvalue="Application.BuilderClient" />
         <item itemvalue="Application.AutoFabrikClient" />
         <item itemvalue="Application.MultiThreadClient" />
-        <item itemvalue="Application.com.yentar.creationalPatterns.singleton.threadSafe.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +148,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657705965062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactoring">
+      <created>1657797819453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797819453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adapater pattern added">
+      <created>1657797991678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797991678</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adapater pattern added">
+      <created>1657798056883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657798056883</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton pattern created" />
     <MESSAGE value="idea config" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea config" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="adapater pattern added" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapater pattern added" />
   </component>
 </project>
