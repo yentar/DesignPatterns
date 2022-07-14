@@ -1,7 +1,7 @@
-package com.yentar.structuralPatterns.classAdapter;
+package com.yentar.structuralPatterns.objectAdapter;
 
 public class StudentDataParserAdapter implements JsonParser {
-    private StudentDataParser studentDataParser;
+    private final StudentDataParser studentDataParser;
 
     public StudentDataParserAdapter(StudentDataParser studentDataParser) {
         this.studentDataParser = studentDataParser;
@@ -14,8 +14,8 @@ public class StudentDataParserAdapter implements JsonParser {
     }
 
     private String convertXml2Json(String studentData) {
-        String result = studentData;
-        result = "{" + "\n";
+        //Assumption: studentData data was here converted.
+        String result = "{" + "\n";
         result += "\t name: Oliver" + "\n";
         result += "\t age: 25" + "\n";
         result += "\t university: Hochschule Osnabrück" + "\n";

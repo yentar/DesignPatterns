@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="adapater pattern added">
+    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="class adapter code refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/classAdapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/objectAdapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/classAdapter/CompanyDataParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/objectAdapter/CompanyDataParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/classAdapter/EmployeeDataParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/objectAdapter/EmployeeDataParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/classAdapter/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/objectAdapter/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/classAdapter/StudentDataParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/objectAdapter/StudentDataParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/classAdapter/StudentDataParserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/structuralPatterns/objectAdapter/StudentDataParserAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mehmet.yentar/Workspace/privat/IdeaProjects/DesignPatterns/src/com/yentar/creationalPatterns/factoryMethod&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/mehmet.yentar/Workspace/privat/IdeaProjects/DesignPatterns/src/com/yentar/structuralPatterns/classAdapter"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/yentar/structuralPatterns/classAdapter" />
       <recent name="$PROJECT_DIR$/src/com/yentar/creationalPatterns/factoryMethod" />
       <recent name="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton" />
       <recent name="$PROJECT_DIR$/src/com/yentar/creationalPatterns/builder" />
@@ -49,7 +55,7 @@
       <recent name="com.yentar.creationalPatterns.factoryMethodeExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.yentar.creationalPatterns.singleton.enumSingleton.Client">
+  <component name="RunManager" selected="Application.com.yentar.structuralPatterns.objectAdapter.Client">
     <configuration name="AutoFabrikClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.factoryMethod.AutoFabrikClient" />
       <module name="DesignPatterns" />
@@ -77,24 +83,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yentar.structuralPatterns.classAdapter.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.yentar.structuralPatterns.objectAdapter.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yentar.structuralPatterns.classAdapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiThreadClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.singleton.lazy.MultiThreadClient" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yentar.creationalPatterns.singleton.lazy.*" />
+          <option name="PATTERN" value="com.yentar.structuralPatterns.objectAdapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.yentar.structuralPatterns.classAdapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yentar.structuralPatterns.classAdapter.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yentar.structuralPatterns.classAdapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.yentar.creationalPatterns.singleton.enumSingleton.Client" />
+        <item itemvalue="Application.com.yentar.structuralPatterns.objectAdapter.Client" />
         <item itemvalue="Application.com.yentar.structuralPatterns.classAdapter.Client" />
+        <item itemvalue="Application.com.yentar.creationalPatterns.singleton.enumSingleton.Client" />
         <item itemvalue="Application.BuilderClient" />
         <item itemvalue="Application.AutoFabrikClient" />
-        <item itemvalue="Application.MultiThreadClient" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657798056883</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="multi-thread client created for enumSingleton">
+      <created>1657798804053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657798804053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +201,8 @@
     <MESSAGE value="idea config" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="adapater pattern added" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapater pattern added" />
+    <MESSAGE value="multi-thread client created for enumSingleton" />
+    <MESSAGE value="class adapter code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="class adapter code refactoring" />
   </component>
 </project>

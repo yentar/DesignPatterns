@@ -1,4 +1,4 @@
-package com.yentar.structuralPatterns.classAdapter;
+package com.yentar.structuralPatterns.objectAdapter;
 
 public interface JsonParser {
     String parse();
