@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="Singleton pattern created" />
+    <list default="true" id="91fca2e0-19c4-426f-a427-09c0bc4b5ab2" name="Changes" comment="idea config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/builder/BuilderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/builder/BuilderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton/enumSingleton/Client.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,20 +33,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/mehmet.yentar/Workspace/privat/IdeaProjects/DesignPatterns/src/com/yentar/creationalPatterns/singleton"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mehmet.yentar/Workspace/privat/IdeaProjects/DesignPatterns/src/com/yentar/creationalPatterns/factoryMethod&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/yentar/creationalPatterns/factoryMethod" />
       <recent name="$PROJECT_DIR$/src/com/yentar/creationalPatterns/singleton" />
       <recent name="$PROJECT_DIR$/src/com/yentar/creationalPatterns/builder" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yentar.creationalPatterns.factoryMethodeExample" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MultiThreadClient">
+  <component name="RunManager" selected="Application.com.yentar.structuralPatterns.classAdapter.Client">
+    <configuration name="AutoFabrikClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.factoryMethod.AutoFabrikClient" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yentar.creationalPatterns.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuilderClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.builder.BuilderClient" />
       <module name="DesignPatterns" />
@@ -49,11 +78,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yentar.creationalPatterns.singleton.doubleCheck.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.yentar.structuralPatterns.classAdapter.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yentar.creationalPatterns.singleton.doubleCheck.*" />
+          <option name="PATTERN" value="com.yentar.structuralPatterns.classAdapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,10 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.yentar.structuralPatterns.classAdapter.Client" />
+        <item itemvalue="Application.BuilderClient" />
+        <item itemvalue="Application.AutoFabrikClient" />
         <item itemvalue="Application.MultiThreadClient" />
         <item itemvalue="Application.com.yentar.creationalPatterns.singleton.threadSafe.Client" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.BuilderClient" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657705925081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="idea config">
+      <created>1657705965062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657705965062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton pattern created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern created" />
+    <MESSAGE value="idea config" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea config" />
   </component>
 </project>
