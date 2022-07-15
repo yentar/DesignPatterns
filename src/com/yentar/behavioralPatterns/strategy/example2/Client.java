@@ -4,7 +4,7 @@ public class Client {
     public static void main(String[] args) {
         Audi audi = new Audi();
         audi.setDynamicMode(new ComfortMode());
-        audi.setSensors(new EngineOilTemperatureDetection());
+        audi.setSensor(new EngineOilTemperatureDetection());
 
         audi.changeDynamicMode();
         audi.activateSensor();
@@ -17,7 +17,7 @@ public class Client {
 
         BMW bwm = new BMW();
         bwm.setDynamicMode(new SportMode());
-        bwm.setSensors(new DriverDrowsinessDetection());
+        bwm.setSensor(new DriverDrowsinessDetection());
 
         bwm.changeDynamicMode();
         bwm.activateSensor();

@@ -8,7 +8,7 @@ public abstract class CarManager {
         this.dynamicMode = dynamicMode;
     }
 
-    public void setSensors(Sensor sensor) {
+    public void setSensor(Sensor sensor) {
         this.sensor = sensor;
     }
 
