@@ -1,6 +1,6 @@
 package com.yentar.behavioralPatterns.strategy.example2;
 
-public abstract class Car {
+public abstract class CarManager {
     private DynamicMode dynamicMode;
     private Sensor sensor;
 
