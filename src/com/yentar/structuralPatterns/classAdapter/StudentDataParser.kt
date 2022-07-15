@@ -1,7 +1,6 @@
-package com.yentar.structuralPatterns.classAdapter;
+package com.yentar.structuralPatterns.classAdapter
 
-public class StudentDataParser {
-    public String getStudentData() {
-        return "XML-Data";
-    }
+open class StudentDataParser {
+    val studentData: String
+        get() = "XML-Data"
 }

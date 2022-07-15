@@ -1,13 +1,16 @@
-package com.yentar.structuralPatterns.classAdapter;
+package com.yentar.structuralPatterns.classAdapter
 
-public class EmployeeDataParser implements JsonParser {
-
-    @Override
-    public String parse() {
-        String result = "{" + "\n";
-        result += "\t name: Mehmet" + "\n";
-        result += "\t age: 99" + "\n";
-        result += "}";
-        return result;
+class EmployeeDataParser : JsonParser {
+    override fun parse(): String {
+        var result = """
+            {
+            
+            """.trimIndent()
+        result += """	 name: Mehmet
+"""
+        result += """	 age: 99
+"""
+        result += "}"
+        return result
     }
 }

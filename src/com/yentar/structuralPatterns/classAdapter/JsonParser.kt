@@ -1,5 +1,5 @@
-package com.yentar.structuralPatterns.classAdapter;
+package com.yentar.structuralPatterns.classAdapter
 
-public interface JsonParser {
-    String parse();
+interface JsonParser {
+    fun parse(): String
 }

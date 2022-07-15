@@ -1,21 +1,26 @@
-package com.yentar.structuralPatterns.classAdapter;
+package com.yentar.structuralPatterns.classAdapter
 
-public class StudentDataParserAdapter extends StudentDataParser implements JsonParser {
-
-    @Override
-    public String parse() {
-        String studentData = super.getStudentData();
-        return convertXml2Json(studentData);
+class StudentDataParserAdapter : StudentDataParser(), JsonParser {
+    override fun parse(): String {
+        val studentData = super.studentData
+        return convertXml2Json(studentData)
     }
 
-    private String convertXml2Json(String studentData) {
+    private fun convertXml2Json(studentData: String?): String {
         //Assumption: studentData data was here converted.
-        String result = "{" + "\n";
-        result += "\t name: Oliver" + "\n";
-        result += "\t age: 25" + "\n";
-        result += "\t university: Hochschule Osnabrück" + "\n";
-        result += "\t degree: Electrical Engineering (B.Sc.)" + "\n";
-        result += "}";
-        return result;
+        var result = """
+            {
+            
+            """.trimIndent()
+        result += """	 name: Oliver
+"""
+        result += """	 age: 25
+"""
+        result += """	 university: Hochschule Osnabrück
+"""
+        result += """	 degree: Electrical Engineering (B.Sc.)
+"""
+        result += "}"
+        return result
     }
 }
