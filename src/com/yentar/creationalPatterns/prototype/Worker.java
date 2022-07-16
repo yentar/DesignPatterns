@@ -25,7 +25,7 @@ public abstract class Worker {
         this.age = age;
     }
 
-    public abstract String getGepartment();
+    public abstract String getDepartment();
 
     public abstract Worker clone();
 }

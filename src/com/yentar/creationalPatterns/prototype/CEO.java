@@ -7,7 +7,7 @@ public class CEO extends Worker {
     }
 
     @Override
-    public String getGepartment() {
+    public String getDepartment() {
         return "dep - 04";
     }
 

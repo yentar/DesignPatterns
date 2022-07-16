@@ -7,7 +7,7 @@ public class Dircetor extends Worker {
     }
 
     @Override
-    public String getGepartment() {
+    public String getDepartment() {
         return "dep - 03";
     }
 

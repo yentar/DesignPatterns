@@ -7,7 +7,7 @@ public class Manager extends Worker {
     }
 
     @Override
-    public String getGepartment() {
+    public String getDepartment() {
         return "dep - 02";
     }
 

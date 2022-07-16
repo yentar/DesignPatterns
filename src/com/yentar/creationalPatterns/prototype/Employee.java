@@ -7,7 +7,7 @@ public class Employee extends Worker {
     }
 
     @Override
-    public String getGepartment() {
+    public String getDepartment() {
         return "dep - 01";
     }
 
